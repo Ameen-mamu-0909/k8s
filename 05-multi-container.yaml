@@ -7,7 +7,7 @@ metadata:
    labels:
     purpose: multi-container
 spec:
-   conatiners:
+   containers:
      - name: nginx
        image: nginx
      - name:  almalinux
