@@ -1,9 +1,9 @@
 apiVersion: v1
-kind: Pod
-metadata: 
+kind: ConfigMap
+metadata:
   name: config-demo
   namespace: roboshop
 data:
-  course: "Devsecops with aws"
+  course: "DevSecOps with AWS"
   Duration: "120Hrs"
-  Trainer: "Sivakumar Reddy" 
+  Trainer: "Sivakumar Reddy"
