@@ -4,6 +4,6 @@ metadata:
   name: config-demo
   namespace: roboshop
 data:
-   course: "Devsecops with aws"
-   Duration: "120Hrs"
-   Trainer: "Sivakumar Reddy" 
+  course: "Devsecops with aws"
+  Duration: "120Hrs"
+  Trainer: "Sivakumar Reddy" 
