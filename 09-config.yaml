@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: configmap
+metadata: 
+  name: config-demo
+  namespace: roboshop
+data:
+   course: "Devsecops with aws"
+   Duration: "120Hrs"
+   Trainer: "Sivakumar Reddy" 
