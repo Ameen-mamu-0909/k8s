@@ -3,7 +3,6 @@ kind: Pod-config
 
 metadata: 
  name: config-map
- namespace: roboshop
 
 spec:
  containers:
