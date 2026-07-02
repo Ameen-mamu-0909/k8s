@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: service
+
+metadta:
+ name: nginx
+spec:
+  selector:
+    project: component
+    environment: dev
+    component: frontend
+  ports:
+    - protocol: TCP
+      port: 80 # service port
+      targetport: 80 # container port
